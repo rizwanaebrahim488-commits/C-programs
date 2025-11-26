@@ -1,2 +1,2 @@
 # C-programs
-This repository contains C language practice programs
+This repository contains my C language practice programs
