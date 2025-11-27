@@ -28,9 +28,9 @@ int generate(int n) {
      int i,r,f=1;
      
      for(i=2;i<=n/2;i+=1) {//dividing n by all no. from 2-n/2
-          r=n%i;//find reminder
+          r=n%i;//find remainder
           if(r==0)
-             f=0;//if reminder 0,it's not prime
+             f=0;//if remainder 0,it's not prime
      }
      return f;//return 1 if prime ,0 if not
 }
