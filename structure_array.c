@@ -11,15 +11,16 @@ int year;
 
 void main() {
       int n,i;
-      
+   
       printf("Enter the no.of students you want to enter the details:     ");
       scanf("%d",&n);
       
       int a[n];
       
-      struct student s[n];
+      struct student s[n];//declaring array of structure
       
       for(i=1;i<=n;i++) {
+           //read elements from user to store array using loop
            printf("   Enter the details of %dth student:\n",i);
            
            printf("\tEnter roll number:    ");
@@ -37,6 +38,7 @@ void main() {
            
            printf("Displaying student details\n");
            
+           //display the contents of array using loop
           for(i=1;i<=n;i++){
           printf("SI.NO:%d\n",i);
                printf("\tRoll no:   %d \n \tName:     %s\n\tAge:       %d\n\tYear:    %d\n",s[i].roll,s[i].name,s[i].age,s[i].year);
