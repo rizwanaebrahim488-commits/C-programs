@@ -18,8 +18,6 @@ void main() {
 }
 
 int factorial(int num){
-     int i;
-     
      if(num<=1) {
      return 1;//if number is less than 1 return 1
      }
